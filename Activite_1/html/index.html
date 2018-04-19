@@ -3,41 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sélecteurs CSS</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 
 <body>
-    <ul class="rouge">
-        <li class="impair">premier élément de la liste à puces</li>
-        <li class="pair">deuxième élément de la liste à puces</li>
-        <li class="impair">troisième élément de la liste à puces</li>
-    </ul>
-    <div>
-        <ul class="bleu">
-            <li class="impair">premier élément de la liste à puces</li>
-            <li class="pair">deuxième élément de la liste à puces</li>
-            <li class="impair">troisième élément de la liste à puces</li>
-        </ul>
+    <div id="gauche">
     </div>
-     <div id="listes">
-      <a href="http://api.jquery.com">API jQuery</a><br>
-      <a href="http://docs.jquery.com">Documentation jQuery</a><br>
+    <div id="droite">
+        Utilisez ces boutons pour créer votre formulaire<br><br>
+        <button id="label">Label</button>
+        <button id="zoneTxt">Zone de texte</button>
+        <button id="bouton">Bouton</button>
+
+        <div id="infoLabel">
+            <hr/>
+            <span>Entrez le texte du label</span>
+        </div>
+        <div id="infoId">
+            <hr/>
+            <span>Entrez l'id de la zone</span>
+        </div>
+        <div id="infoButton">
+            <hr/>
+            <span>Entrez le texte du bouton</span>
+        </div>
+        <div id="infoValid">
+            <input type="text" />
+            <button id="ok">Ok</button>
+        </div>
     </div>
 
-    <ol class="rouge">
-        <li>premier élément de la liste numérotée</li>
-        <li>deuxième élément de la liste numérotée</li>
-        <li>troisième élément de la liste numérotée</li>
-    </ol>
     <script src="../../jquery.js"></script>
-    <script src="../js/cours.js"></script>
-    <script>
-        $(function() {
-            var test = $('a').attr('href');
-            document.write(test);
-        });
-
-    </script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
