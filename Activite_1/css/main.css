@@ -7,6 +7,7 @@
       width: 70%;
       height: 1000px;
       background-color: #EFECCA;
+      padding: 10px;
   }
 
   #droite {
@@ -15,3 +16,7 @@
       padding: 10px;
       padding-left: 71%;
   }
+
+#label, #zoneTxt, #bouton, #infoLabel, #inputInfoLabel, #inputInfoId, #inputInfoButton, #ok, #infoLabel, #infoId, #infoButton, hr+span{
+    margin: 5px;
+}
