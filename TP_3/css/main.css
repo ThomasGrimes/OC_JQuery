@@ -1,0 +1,25 @@
+#plateau {
+    width: 600px;
+    height: 400px;
+    overflow : hidden;
+    margin-bottom: -15px;
+    
+}
+
+
+.fond {
+    position: relative;
+    z-index: 1;
+
+}
+
+#bon,
+#mauvais {
+    position: absolute;
+    z-index: 10;
+}
+
+#scp {
+    position: absolute;
+    z-index: 25;
+}
