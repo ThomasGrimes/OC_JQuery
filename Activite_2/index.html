@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div id="gauche">
+    </div>
+    <div id="droite">
+        Utilisez ces boutons pour créer votre formulaire<br><br>
+        <button class="ombrage" id="label">Label</button>
+        <button class="ombrage" id="zoneTxt">Zone de texte</button>
+        <button class="ombrage" id="bouton">Bouton</button>
+
+        <div id="infoLabel" class="hide">
+            <hr/>
+            <span>Entrez le texte du label</span>
+            <input id="inputInfoLabel" type="text" />
+        </div>
+        <div id="infoId" class="hide">
+            <hr/>
+            <span>Entrez l'id de la zone</span>
+            <input id="inputInfoId" type="text" />
+        </div> 
+        <div id="infoButton" class="hide">
+            <hr/>
+            <span>Entrez le texte du bouton</span>
+            <input id="inputInfoButton" type="text" />
+        </div>
+        <button id="ok" class="hide ombrage">Ok</button>
+        <button id="annuler" class="hide ombrage">Annuler</button>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
